@@ -1,0 +1,8 @@
+#!/bin/sh
+
+def="#7766cc"
+
+magick -size 16x16 xc:"$def" \
+	-size 32x32 xc:"$def" \
+	-size 48x48 xc:"$def" \
+	favicon.ico

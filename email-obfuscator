@@ -1,0 +1,9 @@
+#!/bin/sh
+
+magick -background black \
+	-fill "#7766cc" \
+	-font "DejaVu-Sans-Mono" \
+	-pointsize 48 \
+	label:"ADD EMAIL TO SCRIPT" \
+	-bordercolor black -border 20 \
+	email.png
